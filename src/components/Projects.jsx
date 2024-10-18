@@ -52,7 +52,7 @@ const Projects = () => {
                 />
                 <div className="flex flex-col items-center sm:block text-neutral-50 font-medium">
                   {p.name}
-                  <p className="text-neutral-100 font-normal text-center">
+                  <p className="text-neutral-100 font-normal text-center sm:text-left">
                     {p.desc}
                   </p>
                 </div>
